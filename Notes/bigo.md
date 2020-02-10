@@ -5,15 +5,37 @@ Describes the time growth of an algorithm, based on its inputs. Only depends on 
 
 O(g(n)) <- bounded above by g(n)
 
+T(n) is the time approximation polynomial
+
 Only write the highest order "n" inside O
 
 **Example**
 
-`
+```
 for(int i=n -1; i>=0; i--) {
 	for(int j =9; j>0; j--) {
 		System.out.println(" hello ");
 	}
 }
-`
+```
 
+
+**Find the T and O of the following:**
+```
+for(int i=0;i<n;i++) {
+	for(int j=1;j<i;j=j*2) {
+		print('Hello');
+	}
+}```
+
+
+T(n) = n*
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   | 
+
+
+**O(n log<sub>2</sub>n)**, since the inner loop has the j=j*2 increment;
