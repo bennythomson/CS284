@@ -32,11 +32,10 @@ for(int i=0;i<n;i++) {
 
 T(n) = n*
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   | 
+i|0  |1   |2   |3   |   |n-1
+|----|----|----|----|----|
+|  0 | 0  |  log2(2) | log2(3)  |   |
+
 
 
 **O(n log<sub>2</sub>n)**, since the inner loop has the j=j*2 increment;
