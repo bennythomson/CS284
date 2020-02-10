@@ -1,6 +1,6 @@
-#Big O Notes
+# Big O Notes
 
-###Introduction
+### Introduction
 Describes the time growth of an algorithm, based on its inputs. Only depends on the algorithm itself and not the machine.
 
 O(g(n)) <- bounded above by g(n)
